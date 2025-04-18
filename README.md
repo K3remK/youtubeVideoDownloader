@@ -10,4 +10,6 @@ This is a simple python project to download youtube videos. Main intention is to
 
 - #### some weird named videos cause problems with the os path (fix)
 
+- #### add video duration to the gui and some other props maybe
+
 - #### add multi-threading so that program doesnt frooze while downloading
