@@ -35,7 +35,7 @@ A simple **Tkinter GUI application** that allows users to download YouTube video
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/K3remK/youtubeVideoDownloader.git
+git clone https://github.com/K3remK/YoutubeVideoDownloader.git
 cd YoutubeVideoDownloader
 ```
 
