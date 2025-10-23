@@ -19,8 +19,8 @@ A simple **Tkinter GUI application** that allows users to download YouTube video
 
 📦 YoutubeVideoDownloader/\
 ├── 📄 pyproject.toml\
-├── 📂 youtube_downloader/\
 ├── 📄 .gitignore\
+├── 📂 youtube_downloader/\
 │   ├── 📄 __init__.py\
 │   ├── 📄 main.py\
 │   ├── 📄 gui.py\
@@ -67,5 +67,5 @@ This will launch the Tkinter GUI where you can:
 * Download the video to your computer
 
 ## Deployment
-* Modify code under `src/youtube_downloader/`
-* The console script reflects changes immediately because of editable install `(-e)`
+* Modify code under `youtube_downloader/`
+* The console script reflects changes immediately because of editable install `-e`
