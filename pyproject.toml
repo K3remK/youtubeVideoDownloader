@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=65.5.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "youtube_downloader"
+version = "0.1.0"
+description = "A simple YouTube video downloader GUI"
+authors = [
+  {name = "Kerem Karamanlioglu", email = "kerem7812@gmail.com"}
+]
+requires-python = ">=3.10"
+dependencies = [
+  "pytube>=12.1.0",
+  "yt_dlp>=2025.10.22",
+  "Pillow>=12.0.0",
+  "requests>=2.32.5",
+]
+
+[project.scripts]
+youtube-downloader = "youtube_downloader.main:main"
